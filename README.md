@@ -21,6 +21,51 @@ This repository contains a **Gynecological Health Assistant** built using **Grad
 4. **Response Generation**: The chatbot generates responses using Google's `GenerativeModel` with the `gemini-pro` model.
 5. **Conversation History**: The assistant maintains conversation history to provide context in ongoing interactions.
 
+## Performance Metrics
+To measure the performance of your **Gynecological Health Assistant chatbot**, you can use a variety of metrics that assess both the **technical efficiency** and **user experience**. Here are some key performance indicators (KPIs) that you can track:
+
+## 1. **Response Accuracy**
+   - **Definition**: Measures how often the chatbot provides correct and relevant answers to user queries.
+   - **How to Measure**: You can manually review conversations or use feedback from users to determine if the responses were accurate based on the provided context.
+   - **Importance**: High response accuracy ensures that the chatbot is providing valuable information, which is critical for health-related inquiries.
+
+## 2. **User Satisfaction (CSAT)**
+   - **Definition**: Measures how satisfied users are with their interaction with the chatbot.
+   - **How to Measure**: Use post-chat surveys, star ratings, or emoticons to gather feedback from users after each conversation.
+   - **Importance**: Helps assess the overall user experience and identify areas for improvement in conversational flow or response quality.
+
+## 3. **Goal Completion Rate (GCR)**
+   - **Definition**: Tracks how often users successfully complete their intended task, such as getting a satisfactory answer to a health-related question.
+   - **How to Measure**: Monitor whether users receive relevant answers or are able to resolve their queries without needing human intervention.
+   - **Importance**: A high GCR indicates that the chatbot is effectively fulfilling its purpose.
+
+## 4. **Average Response Time**
+   - **Definition**: Measures how quickly the chatbot responds to user queries.
+   - **How to Measure**: Track the time between when a user submits a question and when they receive a response.
+   - **Importance**: Fast response times are crucial for maintaining user engagement and satisfaction, especially in healthcare contexts where timely information is important.
+
+## 5. **Conversation Duration**
+   - **Definition**: The average length of time users spend interacting with the chatbot.
+   - **How to Measure**: Track the total duration of each conversation session.
+   - **Importance**: A balance is necessary—too short may indicate insufficient engagement, while too long could suggest inefficiency in resolving queries.
+
+## 6. **Missed Utterances / Non-response Rate**
+   - **Definition**: Tracks how often the chatbot fails to understand or respond appropriately to user queries.
+   - **How to Measure**: Monitor instances where users receive fallback responses like "I don’t understand" or where no relevant context is retrieved.
+   - **Importance**: A high non-response rate indicates gaps in the chatbot's Natural Language Processing (NLP) capabilities, requiring improvements in training data or response logic.
+
+## 7. **Human Takeover Rate**
+   - **Definition**: Measures how often the chatbot needs to escalate issues to a human agent for resolution.
+   - **How to Measure**: Track instances where users request or are directed to human support due to unresolved queries.
+   - **Importance**: A low takeover rate suggests that the chatbot is handling most queries effectively on its own
+
+## 8. **Retention Rate**
+   - **Definition**: Tracks how many users return to interact with the chatbot after their initial session.
+   - **How to Measure**: Monitor repeat interactions from unique users over time.
+   - **Importance**: A high retention rate indicates that users find value in interacting with the chatbot, which is crucial for long-term engagement.
+
+   
+
 ## Installation
 
 1. Clone this repository:
