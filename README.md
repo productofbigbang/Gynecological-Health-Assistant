@@ -1,6 +1,6 @@
 
 
-```
+
 # 🏥 Gynecological Health Assistant
 
 This repository contains a **Gynecological Health Assistant** built using **Gradio** and **Google's Generative AI**, which provides general health information related to gynecology. This AI-powered chatbot can answer questions, provide relevant medical context, and guide users on various topics such as menstrual health, pregnancy, and more. It is designed to be empathetic and informative but is not a substitute for professional medical advice.
@@ -73,7 +73,7 @@ The interface includes:
 - Example questions to guide users on what they can ask.
 - Disclaimers about the chatbot's limitations.
 
-![Interface Screenshot](screenshot.png)
+
 
 ## Important Notes
 
